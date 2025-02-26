@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tokyo, Japan</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Japan</a></li>
+        <li><a href="colorado.html">Meadow Creek</a></li>
+        <li><a href="aus.html">Australia</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <section>
+          <img src="tokyo.png" id="img1" alt="Japan at night" />
+          <h2>Ghibli Museum</h2>
+          <p>
+            If you are a Studio Ghibli fan, do not miss the whimsical Ghibli
+            Museum. Most of the exhibits and short animations are in Japanese,
+            but it is still cool to see props and drawings from classic films
+            like Spirited Away and My Neighbor Totoro.
+          </p>
+          <p>
+            The museum is open from 10am to 6pm. It is closed on most Tuesdays
+            and occasional random weeks. It is a 15-minute walk from Mitaka
+            Station and a little longer from Kitoji Station through a pleasant
+            park. Do not forget your passport. Although they say you need a
+            printout, they can scan the QR code from your phone
+          </p>
+        </section>
+        <section>
+          <h2>Cherry Blossom Viewing</h2>
+          <p>
+            The sakura of Japan are well known around the world for their
+            radiant, delicate and transient beauty, but they are more than
+            simply beautiful cherry blossom trees.
+          </p>
+          <p>
+            Each year, people in Japan gather together to watch the sakura bloom
+            from March through May and observe how at the peak of their beauty,
+            the blossoms start to fall; providing a stark reminder that although
+            life is beautiful, it is also ephemeral and short
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+  </body>
+</html>
+
+
+*CSS*
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: rgba(49, 49, 131, 0.274);
+}
+
+h1,
+h2,
+h5 {
+  color: rgb(50, 17, 94);
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+p {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+#img1 {
+  height: 40%;
+  width: 40%;
+  padding: 45px;
+}
+#img2 {
+  height: 80%;
+  width: 80%;
+  padding: 30px;
+}
+#img3 {
+  height: 60%;
+  width: 60%;
+  padding: 40px;
+}
+p {
+  background-color: rgba(91, 91, 128, 0.137);
+  padding: 25px;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  border: double rgb(45, 43, 48);
+  color: rgb(50, 46, 53);
+  padding: 40px;
+  margin: 2px;
+}
