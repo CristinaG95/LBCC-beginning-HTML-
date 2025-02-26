@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h1>Cristina Garcia's Hobbies</h1>
+    <h3>2025</h3>
+  </header>
+    <img id="img1"
+      src="https://images.pexels.com/photos/7858750/pexels-photo-7858750.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="pc gaming"
+      width="600"
+    />
+    <h2>Video Games</h2>
+    <p>
+      I like to play video games. I prefer the ones that are more linear and
+      story-focused, like any Legend of Zelda game. Sometimes I even stream on
+      Twitch.
+    </p>
+    <img
+      src="https://images.pexels.com/photos/2831797/pexels-photo-2831797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="sketch of a monkey"
+      width="600"
+    />
+    <h2>Drawing</h2>
+    <p>
+      I like to draw. Nothing too special, just doodles in many different
+      notebooks. I even made stickers to pass out last year for a concert.
+    </p>
+    <img
+      src="https://images.pexels.com/photos/167636/pexels-photo-167636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="crowd shot at concert"
+      width="600"
+    />
+    <h2>Music and Concerts</h2>
+    <p>
+      I like to listen to live music. I try to go to as many local shows as I
+      can. Everything else is too expensive for me, but I love discovering new
+      music through the opening acts.
+    </p>
+    <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+  </body>
+</html>
+
+*CSS*
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+header {
+  color: rgb(255, 251, 0);
+  font-family: "Roboto Condensed", serif;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+}
+h2 {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+header {
+  background-color: rgb(25, 77, 8);
+  padding: 5px;
+}
+p {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+footer {
+  color: whitesmoke;
+  background-color: rgb(200, 173, 218);
+  font-family: Arial, Helvetica, sans-serif;
+  border: double;
+  font-weight: bolder;
+  padding: 30px;
+  margin: 2px;
+  text-align: center;
+}
+#img1 {
+  padding-top: 20px;
+}
+h3 {
+  font-weight: lighter;
+}
