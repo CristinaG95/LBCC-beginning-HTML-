@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+  </head>
+
+  <body>
+    <h1>Golden Corral</h1>
+    <img src="goldencorral.png" alt="Golden Corral Logo" />
+    <h2>The Restaurant</h2>
+    <p>
+      Golden Corral is an American all-you-can-eat buffet and grill chain. It is
+      a privately held company headquartered in the U.S. city of Raleigh, North
+      Carolina, with locations in 43 U.S. states and Puerto Rico.
+    </p>
+    <h2>Party Room</h2>
+    <p>
+      Our private dining room is the perfect place for your group to celebrate
+      birthdays, sports teams, showers, reunions…whatever the occasion, Golden
+      Corral likes to throw a party!
+    </p>
+    <h2>Location and Hours</h2>
+    Seekonk, Massachusetts; Monday through Thursday 11:30am to 9pm; Friday 11 am
+    to 10 pm Saturday, 8 am to 10 pm; Sunday 8 am to 9 pm
+  </body>
+</html>
