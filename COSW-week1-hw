@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Balatro</h1>
+      <img src="balatro.png" alt="Balatro" width="600" />
+    </header>
+    <main>
+      <h2>Development</h2>
+      <p>
+        Development began in 2021, two and a half years before release, and the
+        game was initially intended to be one of several small games that were
+        shared with friends. After seeing the number of roguelike deckbuilders
+        on Steam and after watching a Twitch stream of Northernlion playing Luck
+        Be a Landlord, a slot machine-themed roguelike, he was inspired to turn
+        his Big Two clone into a single-player roguelike deckbuilder without
+        online play. He at one point considered the name Joker Poker for the
+        game before settling on balatro, a professional jester or buffoon.
+      </p>
+      <h2>Playthrough</h2>
+      <p>
+        Balatro is a roguelike deck-building game. The player chooses a deck,
+        each with unique effects and cards, before each playthrough or "run." A
+        run is divided into antes, with three blinds, each of increasing
+        difficulty. A blind consists of multiple rounds, where the player has to
+        utilize various combinations of cards to score at least the required
+        amount of points. To defeat blinds more easily, the player may choose to
+        buy various cards that change the rules of the game. These items are
+        bought in a shop in between rounds.
+      </p>
+      <h2>Cards</h2>
+      <img src="cards.png" alt="Cards" width="300" />
+      <p>
+        Jokers are the primary means by which players can alter their scoring in
+        the game, among other effects. The game was released with 150 Joker
+        cards. Many Jokers provide Chips or Mult bonuses based on certain
+        conditions, and some provide an additional Mult multipliers. Other
+        Jokers can reward money or consumable cards on meeting their conditions.
+        Jokers can be found with or upgraded to variants like Foil, Polychrome,
+        Negative or Holographic versions which provide further bonuses. Part of
+        the strategy of Balatro is filling one's limited Joker slots with Jokers
+        that have interactions with each other and other cards to greatly
+        increase scoring opportunities.
+      </p>
+    </main>
+    <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+  </body>
+</html>
+
+*CSS* 
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: oblique;
+  color: whitesmoke;
+  font-size: xxx-large;
+  background-color: rgb(136, 49, 45);
+  background-size: cover;
+  padding: 5px;
+  margin: 5px 0;
+}
+p,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: whitesmoke;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border: solid 1px;
+  padding: 10px;
+  text-align: center;
+}
+body {
+  background-color: rgb(17, 75, 137);
+}
