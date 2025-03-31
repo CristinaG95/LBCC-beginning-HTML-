@@ -1,3 +1,4 @@
+*PAGE 1*
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,6 +50,106 @@
             from March through May and observe how at the peak of their beauty,
             the blossoms start to fall; providing a stark reminder that although
             life is beautiful, it is also ephemeral and short
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+  </body>
+</html>
+
+*Page 2*
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Colorado</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meadow Creek</h1>
+      <h5>Buena Vista, Colorado</h5>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Japan</a></li>
+        <li><a href="colorado.html">Meadow Creek</a></li>
+        <li><a href="aus.html">Australia</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <section>
+          <img id="img2" src="main-stage.png" alt="Main Stage" />
+          <h2>About the Venue</h2>
+          <p>
+            Meadow Creek seeks to curate unforgettable experiences in a space
+            where individuals can reconnect with themselves and their
+            surroundings. Arrive to enjoy nature, relax, rejuvenate, play, and
+            find freedom with live music in the fresh Colorado air.
+          </p>
+          <h2>Field of Vision</h2>
+          <p>
+            In this celebration, King Gizzard & The Lizard Wizard welcomes us to
+            gather at Meadow Creek in a collective musical experience with three
+            nights of rock'n'roll by the band. Connect with nature’s finest
+            mountain views, inhale the crisp Colorado fresh air, play in rivers
+            & creeks, and channel freedom through music, dance, and community.
+            Welcome to Field of Vision.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+  </body>
+</html>
+
+*Page3*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>aus</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Melbourne, Australia</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Japan</a></li>
+        <li><a href="colorado.html">Meadow Creek</a></li>
+        <li><a href="aus.html">Australia</a></li>
+      </ul>
+    </nav>
+    <main>
+      <article>
+        <section>
+          <img src="melbourne.png" id="img3" alt="Melbourne skyline" />
+          <h2>Music of Melbourne</h2>
+          <p>
+            Melbourne hosts 62,000 live concerts annually, making it one of the
+            live music capitals of the world. Victoria is host to more than
+            three times the live performance national average, making it the
+            live music capital of the country. Melbourne is host to more music
+            venues per capita than Austin, Texas.
+          </p>
+          <h2>Music Festivals</h2>
+          <p>
+            Melbourne is a world-class music city, with an energetic roster of
+            headline festivals, unique venues and out-of-town regional
+            experiences where you can dance until sunrise breaks. We've got a
+            stage here for all kinds of music-lovers, whatever beat you move to.
+            A plethora of festivals across the year spotlight both local
+            favourites and international stars. Delve into this year's showcase
+            of live music and look forward to the next.
           </p>
         </section>
       </article>
