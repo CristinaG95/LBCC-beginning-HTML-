@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Stu Mackenzie</h1>
+      <img
+        src="https://townsquare.media/site/366/files/2024/01/attachment-King-Gizzard-and-the-Lizard-Wizard-Stu-Mackenzie-2022.jpg?w=980&amp;q=75"
+        alt="Stu Mackenzie"
+        style="width: 600px"
+      />
+    </header>
+    <section style="width: 600px">
+      <h2>About Stu</h2>
+      <p>
+        An Australian musician best known as the frontman of rock band King
+        Gizzard & the Lizard Wizard. He serves as singer, guitarist and
+        multi-instrumentalist for the band and is recognized as its leader, a
+        role he has filled since its formation in 2010.
+      </p>
+    </section>
+    <section>
+      <h2 style="text-align: center">Attribute</h2>
+      <table id="table" style="width: 400px">
+        <thead>
+          <tr style="background-color: rgb(255, 149, 165)">
+            <th>Attribute:</th>
+            <th style="float: left; padding-left: 10px">Value:</th>
+          </tr>
+        </thead>
+        <tr>
+          <td class="table-attr">Born:</td>
+          <td>Stuart Douglas Mackenzie</td>
+        </tr>
+        <tr>
+          <td class="table-attr"></td>
+          <td>26 October 1990 (age 34)</td>
+        </tr>
+        <tr>
+          <td class="table-attr">Spouse:</td>
+          <td>Philippa Gleeson (m. 2019)</td>
+        </tr>
+        <tr>
+          <td class="table-attr">Children:</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td
+            class="table-attr"
+            colspan="2"
+            style="
+              text-align: center;
+              font-weight: bold;
+              background-color: rgb(255, 149, 165);
+            "
+          >
+            Music Career
+          </td>
+        </tr>
+        <tr>
+          <td class="table-attr">Occupations:</td>
+          <td>Musician-singer-songwriter-record producer</td>
+        </tr>
+        <tr>
+          <td class="table-attr">Genres</td>
+          <td>Psychedelic Rock - Garage Rock - Psychedelic Pop</td>
+        </tr>
+        <tr>
+          <td class="table-attr">Instruments:</td>
+          <td>
+            Guitar - vocals - bass guitar - keyboards - sitar - flute -
+            percussion - synthesizer - tambourine - drums
+          </td>
+        </tr>
+        <tr>
+          <td class="table-attr">Former Groups:</td>
+          <td>
+            Almacknjack - King Gizzard And The Lizard Wizard - Revolver & Sun -
+            The Houses
+          </td>
+        </tr>
+        <tr>
+          <td class="table-attr">Labels:</td>
+          <td>Flightless Records - KGLW - p(doom)</td>
+        </tr>
+        <tr>
+          <td class="table-attr">Years Active:</td>
+          <td>2005-present</td>
+        </tr>
+      </table>
+    </section>
+    <section
+      id="table2"
+      style="margin-top: 50px; margin-left: 20px; width: 600px"
+    >
+      <h2>Comment Form</h2>
+      <form id="form-comment" name="form-comment">
+        <table id="table-comment">
+          <tr>
+            <td>Username:</td>
+            <td><input type="text" id="username" name="username" /></td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>
+              <input type="email" id="email-textfield" required="" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <span>Comment:</span><br />
+              <textarea id="comment" name="comment"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </body>
+</html>
+
+*CSS* 
+
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+
+body {
+  background-color: whitesmoke;
+}
+h1 {
+  font-family: "Knewave";
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+}
+section,
+img {
+  display: block;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#table {
+  display: block;
+  margin: auto;
+  background-color: crimson;
+  padding: 3px;
+}
+#table tr:nth-child(odd) {
+  background-color: pink;
+}
+#table tr:nth-child(even) {
+  background-color: rgb(250, 205, 212);
+}
+
+input[type="text"],
+input[type="email"] {
+  align-items: center;
+  font-size: 100%;
+  padding: 5px 30px;
+  background-color: whitesmoke;
+  border: whitesmoke;
+}
+#comment {
+  padding: 30px 100px;
+  background-color: whitesmoke;
+  border: whitesmoke;
+}
