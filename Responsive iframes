@@ -1,0 +1,257 @@
+*Page 1*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h1>Gum & Ambrose Kenny-Smith</h1>
+  </header>
+  <nav>
+    <ul style="list-style: none">
+      <li><a href="index.html">Ill times</a></li>
+      <li><a href="gum.html">GUM</a></li>
+      <li><a href="ambrose.html">Ambrose</a></li>
+    </ul>
+  </nav>
+  <h2 style="text-align: center">Ill times</h2>
+  <a href="https://gumambrosekenny-smith.bandcamp.com/album/ill-times">
+    <img
+      src="https://f4.bcbits.com/img/a1909734652_16.jpg"
+      alt="Ill times"
+      style="width: 300px"
+  /></a>
+  <body>
+    <p>
+      Jay Watson and Ambrose Kenny-Smith lead parallel musical lives you
+      wouldn't necessarily expect to intersect. At surface level, they're
+      working at opposite ends of a spectrum: Watson skews toward chilled-out
+      neo-psychedelia, touring with Tame Impala, playing in Pond and flying solo
+      as GUM, while Kenny-Smith brings late '60s garage and blues rock intensity
+      to Melbourne's King Gizzard and the Lizard Wizard, even more in the
+      Murlocs. It's a wonder they found the time to come together, and a welcome
+      surprise they did. Vintage, contemporary and futuristic all at once, Ill
+      Times is a well-constructed collage: they threw everything at the wall,
+      and all of it stuck.
+    </p>
+    <p>
+      Clearly, their collaboration was kismet. Longing to lean deeper into funk,
+      Watson spent years workshopping a gritty synth instrumental to no avail.
+      Sent to Kenny-Smith on a whim, it effortlessly morphed into "Old
+      Transistor Radio," a fuzzy ode to the inexplicable power of music, its
+      energy a brattier "Old Time Rock and Roll" for '90s babies. Riding a
+      zig-zagging synthline and crunchy hip-hop drums, Kenny-Smith waxes mystic
+      about "high frequencies I can't describe" between some manic adlibs and
+      screeches. With radio static and an interpolation of the stacked harmonica
+      and sax from Eric Burdon & War's "Magic Mountain," it lives up to being on
+      "another dimension on the static dial."
+    </p>
+    <iframe
+      style="border-radius: 12px"
+      src="https://open.spotify.com/embed/album/47mEyfKfIOcqiD5UfD42jS?utm_source=generator"
+      width="560px"
+      height="352"
+      frameborder="0"
+      allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+    ></iframe>
+  </body>
+</html>
+
+*Page 2*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h1>Jay Watson</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Ill times</a></li>
+        <li>
+          <a href="gum.html">GUM</a>
+        </li>
+        <li>
+          <a href="ambrose.html">Ambrose</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <p style="margin-top: 40px">
+      Jay Wesley Watson is an Australian multi-instrumentalist, producer, singer
+      and songwriter. He is best known as a touring member of the psychedelic
+      band Tame Impala and as a co-founder of the psychedelic rock/pop band
+      Pond, with whom he's recorded ten albums. Watson also records solo
+      material under the name GUM and, as of 2023, has released six studio
+      albums under this name. In addition, he sometimes collaborates with fellow
+      Pond member James Ireland as the duo GUM & Ginoli, remixing songs
+      originally recorded by a variety of different artists, and occasionally
+      contributes production and mixing to the solo projects of fellow Pond
+      members as well as other local Perth musicians.
+    </p>
+    <h2>On working remotely with Ambrose</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/gdvNw1pMFO0?si=5wSbi6HvhyqIu3PX"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <p>
+      <strong
+        >How was it collaborating with Ambrose on that recent split
+        seven?</strong
+      ><br />
+      Oh it was really fun, really easy. He’s used to having to do stuff so
+      quickly with them (KG).<br />
+    </p>
+    <p>
+      <strong>Was it completely remote?</strong><br />
+      Yeah completely remote, we’ve almost finished an album. It’s really cool,
+      it’s been really easy. It’s insane how quickly I’ll send him something and
+      then how quickly he’ll send some vocals back. So I’ll just spend a couple
+      months fiddling with the production and mixing on it and then it should be
+      done… I don’t know how to describe it, it’s kinda like an Electro Soul
+      Rock record."<br />
+    </p>
+  </body>
+</html>
+
+*Page 3*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h1>Ambrose Kenny-Smith</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Ill times</a></li>
+      <li><a href="gum.html">GUM</a></li>
+      <li><a href="ambrose.html">Ambrose</a></li>
+    </ul>
+  </nav>
+  <body>
+    <p style="margin-top: 40px">
+      Occupies a ‘spotlight’ role and provides the group’s signature harmonica
+      wail, and live keys/secondary percussion duties. Has the second most lead
+      vocal and songwriting credits, and occasionally plays alto saxophone.
+      Ambrose is also the principal member of The Murlocs, a Garage/Blues Rock
+      band featuring Cook on bass, with Cal Shortal, Tim Karmouche, and Matt
+      Blach playing guitar, keyboards, and drums respectively. Formed shortly
+      before Ambrose joined King Gizzard, as his primary project they have
+      maintained a very respectable and distinctive output in between other
+      commitments. The material is a less conceptual, more straightforward
+      reflection of Ambrose; and is guaranteed to be enjoyed by any fan of the
+      idiosyncratic vocal timbre and signature harmonica wail that has come to
+      define his contributions for King Gizzard.
+    </p>
+    <h2>On writing Dud</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/uLR4hCIHl3c?si=NE0rHLTEiXNXlYt-"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <p>
+      “After my Dad passed away in May last year, we never got to properly
+      finish the song together” explains Ambrose “It only felt right to make the
+      chorus as more of a sendoff to him. I miss him everyday but Iʼm so glad I
+      now have this song to remember him by. It helped me process his passing a
+      lot. Dad used to always sign off on his emails and birthday cards with ʻ-
+      love Dud x.ʼ”
+    </p>
+    <p>
+      GUM’s Jay Watson adds: “This one started as a demo Ambrose sent me, with
+      the songwriting all there. I loved the melody and the classic chord
+      progression, and ran about half of the stems through a tremolo, as well as
+      adding some Vox repeater fuzz tremolo, a classic Spacemen 3 trick. It just
+      sounded like Track 1 to me, I donʼt know why.”
+    </p>
+  </body>
+</html>
+
+*CSS*
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  background-color: ivory;
+}
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 50px;
+  text-align: center;
+  color: rgb(18, 8, 4);
+}
+h2 {
+  font-family: "Permanent Marker";
+  margin-left: 20px;
+  color: rgb(18, 8, 4);
+}
+img {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+img:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+a:visited,
+a:link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+ul {
+  position: relative;
+  font-family: "helvetica";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+  background-color: rgb(18, 8, 4);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 5px;
+}
+li:hover {
+  background-color: rgb(225, 218, 200);
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px;
+  padding: 10px;
+}
+strong {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+}
+iframe {
+  padding-left: 20px;
+}
