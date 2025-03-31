@@ -1,0 +1,437 @@
+*Page1*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>City of Paramount</h1>
+    </header>
+    <main>
+      <h2>Welcome to Paramount</h2>
+      <table id="home">
+        <tr>
+          <td id="home2">
+            <a href="index.html">Home</a>
+          </td>
+          <td id="home3">
+            <a href="information.html">Information</a>
+          </td>
+          <td id="home4">
+            <a href="reservations.html">Reservation</a>
+          </td>
+        </tr>
+      </table>
+      <div class="row" style="width: 150%">
+        <div class="column">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5f765a7ee6ba297ca9503201/1633037812974-P0YW8QWGAY856ASCXXB5/Paramount+Fountain.jpg"
+            alt="Paramount Welcome Well"
+            style="width: 100%"
+          />
+        </div>
+        <div class="row">
+          <div class="column">
+            <img
+              id="logo"
+              src="https://www.paramountcity.gov/wp-content/uploads/2024/07/logo-oval-adv.svg"
+              alt="logo-oval-adv"
+            />
+          </div>
+        </div>
+        <section id="intro">
+          <p style="width: 65%">
+            Located at the gateway to the Los Angeles metropolis, the City
+            offers a secure quality of life to nearly 54,000 residents and a
+            business-friendly attitude that has created a growing retail and
+            services sector. Crime statistics are at historic lows thanks to a
+            proactive, balanced relationship with the L.A. County Sheriff's
+            Department. Paramount has a distinctive look due to a continual
+            investment in its infrastructure and a long-time emphasis on code
+            enforcement and assistance programs that have helped residents and
+            businesses upgrade and maintain their properties. The municipal
+            government is a stable, innovative, and financially conservative
+            organization, with an emphasis on maintaining the quality of life
+            for residents, all of which have established a town that people are
+            proud to call home.
+          </p>
+        </section>
+        <section id="intro2">
+          <h3>Upcoming Events</h3>
+          <ul style="width: 65%">
+            <li>
+              <a
+                href="https://www.paramountcity.gov/event/friday-night-paramount-2/"
+                >Friday Night Paramount</a
+              >
+              <p style="display: inline">
+                - March 06, 2025. Friday Night Paramount is a delightful, free
+                monthly evening market in downtown Paramount, California. It
+                showcases an array of food, live music, art, and shopping. The
+                event takes place on the first Friday of each month from 5 to 9
+                PM.
+              </p>
+            </li>
+            <li>
+              <a href="https://www.paramountcity.gov/event/paramount-on-wheels/"
+                >Paramount on Wheels</a
+              >
+              <p style="display: inline">
+                - March 08,2025. Paramount on Wheels is a community outreach
+                program in the city of Paramount, California. The initiative
+                features activity-packed vehicles visiting local parks to offer
+                enjoyable activities such as games, crafts, and sports for
+                families to partake in, effectively bringing entertainment "on
+                wheels" to various locations throughout the city.
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://www.paramountcity.gov/event/storytime-with-the-mayor-3/"
+                >Storytime with the Mayor</a
+              >
+              <p style="display: inline">
+                - March 19, 2025. "Storytime with the Mayor" is a special event
+                where the city's mayor reads stories to children at a local
+                library, community center, or other public space, providing a
+                unique opportunity for young residents to interact with their
+                elected leader in a fun and casual setting, often including
+                activities like crafts or Q&amp;A sessions afterwards.
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://www.paramountcity.gov/event/friday-night-paramount-pop-up/"
+                >Friday Night Paramount Pop-Up</a
+              >
+              <p style="display: inline">
+                - March 21, 2025. The Paramount Night Farmers Market (AKA Friday
+                Night Paramount) is a monthly & pop-up night farmers market
+                featuring delicious food, live music & entertainment, and cool
+                gifts made local. Starting in 2024 we began also offering fresh
+                regional produce sold by local family farms, as the market
+                became a Certified Farmers Market.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <nav>
+            <ul style="float: left">
+              <li>
+                <a href="index.html">home</a>
+              </li>
+              <li>
+                <a href="information.html">information</a>
+              </li>
+              <li>
+                <a href="reservations.html">reserved</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
+
+*Page2* 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header id="vid">
+    <h1>Clutter-Free Paramount 2025</h1>
+    <iframe
+      height="300"
+      width="500"
+      src="https://youtube.com/embed/LS007Xg2HIk?si=SmuvvHJSQnec5FOc"
+    ></iframe>
+    <h1>Paramount's Wildfire Support Donation Drive</h1>
+    <iframe
+      height="300"
+      width="500"
+      src="https://youtube.com/embed/hGTV-YgjRkk?si=u-A5gg52-bwFwh1P"
+    ></iframe>
+  </header>
+  <h1>Demographics</h1>
+  <center style="color: white">US Census</center>
+  <table style="width: 100%">
+    <tr>
+      <td>Total Population</td>
+      <td>2010-54,098</td>
+      <td>2020-53,828</td>
+    </tr>
+    <tr>
+      <td>Spoken Languages</td>
+      <td>English-28.64%</td>
+      <td>Spanish-67.42%</td>
+    </tr>
+    <tr>
+      <td>Geography</td>
+      <td>4.7 sq mi of land</td>
+      <td>0.1 sq mi of water</td>
+    </tr>
+    <tr>
+      <td>Weather</td>
+      <td>Spring-72°</td>
+      <td>Winter-68°</td>
+    </tr>
+  </table>
+  <section>
+    <nav>
+      <ul style="display: inline">
+        <li><a href="index.html">home</a></li>
+        <li><a href="information.html">information</a></li>
+        <li><a href="reservations.html">reserved</a></li>
+      </ul>
+    </nav>
+  </section>
+</html>
+
+*Page3*
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Public Art Tour Reservations</h1>
+      <p>
+        If you enjoy viewing interesting works of public art, take a tour of
+        Paramount's Outdoor Art Museum. There are dozens of sculptures located
+        throughout the City that vary in style from abstract shapes to lifelike
+        figures. Our fountains are included, too. Keep an eye out for all of
+        them; you'll like what you see.
+      </p>
+    </header>
+    <article>
+      <div class="row">
+        <div class="column">
+          <img
+            src="https://www.paramountcity.gov/wp-content/uploads/2024/09/637290292544000000-4.jpg"
+            alt="Come On, Dad!"
+            style="width: 80%"
+          />
+        </div>
+        <div class="row">
+          <div class="column">
+            <img
+              src="https://www.paramountcity.gov/wp-content/uploads/2024/09/637290273167870000-33-scaled.jpg"
+              alt="Upholding"
+              style="width: 80%"
+            />
+          </div>
+          <div class="row">
+            <div class="column">
+              <img
+                src="https://www.paramountcity.gov/wp-content/uploads/2024/09/637290286287530000-14.jpg"
+                alt="Origami Pony"
+                style="width: 80%"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section>
+      <h2 style="display: inline-flex">Sign up!</h2>
+    </section>
+    <section>
+      <form>
+        <table>
+          <tr>
+            <td>First Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Last Name:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Street Address:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>City, State, Zip code:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Email Address:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Phone number:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="age">Age:</label></td>
+            <td>
+              <select name="Age">
+                <option value="Under 18">Under 18</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-45">36-45</option>
+                <option value="46-55">46-55</option>
+                <option value="56+">56+</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Reserve date:</td>
+            <td>
+              <form action="/action_pege.php">
+                <input type="date" />
+              </form>
+            </td>
+          </tr>
+          <tr>
+            <td>Total Amount of Guests:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td>Comment:</td>
+            <td><input type="text" /></td>
+          </tr>
+          <tr>
+            <td><input type="submit" /></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <section>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="information.html">Information</a>
+          </li>
+          <li>
+            <a href="reservations.html">Reservations</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </body>
+</html>
+
+*CSS* 
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
+h1 {
+  font-family: "winky sans";
+  font-size: 70px;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+}
+#home {
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 172px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column {
+  display: inline-block;
+  float: left;
+  align-items: center;
+  padding-left: 10px;
+  width: 30%;
+}
+#logo {
+  display: inline;
+  padding-left: 15%;
+  width: 50%;
+  margin-top: 60px;
+}
+#home2:hover,
+#home3:hover,
+#home4:hover {
+  background-color: lightblue;
+}
+h2 {
+  font-family: "winky sans";
+  background-color: rgb(24, 68, 122);
+  width: 100%;
+  color: rgb(201, 237, 250);
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin: 5px 5px 10px;
+}
+h3 {
+  font-family: "winky sans";
+  color: rgb(201, 237, 250);
+  background-color: rgb(24, 68, 122);
+  padding: 10px;
+}
+table,
+tr,
+td {
+  font-family: "Helvetica";
+  text-align: center;
+  border: 1px solid;
+  border-color: gray;
+  border-collapse: collapse;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 10px;
+}
+center {
+  background-color: rgb(24, 68, 122);
+  font-family: "winky sans";
+  font-weight: bolder;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  padding: 8px;
+}
+body {
+  background-color: rgb(250, 244, 235);
+}
+tr:nth-child(even) {
+  background-color: #c8e9f5;
+}
+tr:nth-child(odd) {
+  background-color: #ddf0f5;
+}
+#vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#intro,
+#intro2 {
+  float: left;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+article {
+  display: inline;
+  float: left;
+}
