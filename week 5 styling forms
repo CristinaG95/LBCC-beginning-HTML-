@@ -1,0 +1,380 @@
+*Page1*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Week 5 Lab Activity</h1>
+      <nav>
+        <ul style="list-style-type: none">
+          <li style="display: inline">
+            <a href="index.html">Form A</a>
+          </li>
+          <li style="display: inline">
+            <a href="formb.html">Form B</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section style="width: 700px; background-color: indigo; padding: 10px">
+        <h2 style="background-color: white; margin: 0%; padding: 10px">
+          Form A
+        </h2>
+        <form style="background-color: white">
+          <div class="form-column">
+            <label for="first-name; ">First Name</label>
+            <input type="text" id="first-name" placeholder="Your First Name" />
+          </div>
+          <div class="form-column">
+            <label for="last-name">Last Name</label>
+            <input
+              type="text"
+              id="last-name"
+              placeholder="Your Last Name"
+              required=""
+            />
+          </div>
+          <div class="form-column">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="name@domain.com"
+              required=""
+            />
+          </div>
+          <div class="form-column">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" placeholder="555-555-5555" />
+          </div>
+          <div class="form-column">
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="123 S. Main Street." />
+          </div>
+          <div class="form-column">
+            <label for="city">City</label>
+            <input type="text" id="city" placeholder="Long Beach" />
+          </div>
+          <div class="form-column">
+            <label for="state">State</label>
+            <select name="state" id="state">
+              <option value="" selected="selected">Select a State</option>
+              <option value="AL">Alabama</option>
+              <option value="AK">Alaska</option>
+              <option value="AZ">Arizona</option>
+              <option value="AR">Arkansas</option>
+              <option value="CA">California</option>
+              <option value="CO">Colorado</option>
+              <option value="CT">Connecticut</option>
+              <option value="DE">Delaware</option>
+              <option value="DC">District Of Columbia</option>
+              <option value="FL">Florida</option>
+              <option value="GA">Georgia</option>
+              <option value="HI">Hawaii</option>
+              <option value="ID">Idaho</option>
+              <option value="IL">Illinois</option>
+              <option value="IN">Indiana</option>
+              <option value="IA">Iowa</option>
+              <option value="KS">Kansas</option>
+              <option value="KY">Kentucky</option>
+              <option value="LA">Louisiana</option>
+              <option value="ME">Maine</option>
+              <option value="MD">Maryland</option>
+              <option value="MA">Massachusetts</option>
+              <option value="MI">Michigan</option>
+              <option value="MN">Minnesota</option>
+              <option value="MS">Mississippi</option>
+              <option value="MO">Missouri</option>
+              <option value="MT">Montana</option>
+              <option value="NE">Nebraska</option>
+              <option value="NV">Nevada</option>
+              <option value="NH">New Hampshire</option>
+              <option value="NJ">New Jersey</option>
+              <option value="NM">New Mexico</option>
+              <option value="NY">New York</option>
+              <option value="NC">North Carolina</option>
+              <option value="ND">North Dakota</option>
+              <option value="OH">Ohio</option>
+              <option value="OK">Oklahoma</option>
+              <option value="OR">Oregon</option>
+              <option value="PA">Pennsylvania</option>
+              <option value="RI">Rhode Island</option>
+              <option value="SC">South Carolina</option>
+              <option value="SD">South Dakota</option>
+              <option value="TN">Tennessee</option>
+              <option value="TX">Texas</option>
+              <option value="UT">Utah</option>
+              <option value="VT">Vermont</option>
+              <option value="VA">Virginia</option>
+              <option value="WA">Washington</option>
+              <option value="WV">West Virginia</option>
+              <option value="WI">Wisconsin</option>
+              <option value="WY">Wyoming</option>
+            </select>
+          </div>
+          <div class="form-column">
+            <label for="zipcode">Zip Code</label>
+            <input type="number" id="zipcode" placeholder="00000" />
+          </div>
+          <div
+            id="anything"
+            class="form-column"
+            style="border-top: solid 1px lightgray; width: 630px"
+          >
+            <label for="anything">Anything else (optional)</label>
+            <input
+              type="text"
+              id="optional"
+              placeholder="What challenges are you looking to overcome?"
+              style="height: 80px; width: 620px; font-family: comfortaa"
+            />
+          </div>
+          <input type="submit" value="Submit" style="margin: 10px" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+*CSS1*
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1 {
+  font-family: "Exo 2";
+  margin-left: 40px;
+}
+h2 {
+  font-family: "Comfortaa";
+  margin-left: 10px;
+}
+nav {
+  font-family: "Exo 2";
+  padding: 10px;
+}
+li {
+  padding: 10px;
+  font-size: 20px;
+  margin: 10;
+  background-color: rebeccapurple;
+}
+li:hover {
+  background-color: lavender;
+}
+.form-column {
+  display: inline-block;
+  width: 45%;
+}
+div {
+  margin: 5px 10px;
+  font-family: "Comfortaa";
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 6px 5px 15px;
+  width: 90%;
+}
+input[type="submit"] {
+  font-family: "Comfortaa";
+  background-color: rebeccapurple;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 15px 70px;
+}
+#anything {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+*Page2*
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="form-b.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Week 5 Lab Activity</h1>
+      <nav>
+        <ul style="list-style-type: none">
+          <li style="display: inline">
+            <a href="index.html">Form A</a>
+          </li>
+          <li style="display: inline">
+            <a href="formb.html">Form B</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Form B</h2>
+        <form>
+          <input type="text" id="first-name" placeholder="Your First Name" />
+          <input
+            type="text"
+            id="last-name"
+            placeholder="Your Last Name"
+            required=""
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="name@domain.com"
+            required=""
+          />
+          <input type="text" id="phone" placeholder="555-555-5555" />
+          <input type="text" id="address" placeholder="123 S. Main Street." />
+          <input type="text" id="city" placeholder="Long Beach" />
+          <select name="state" id="state">
+            <option value="" selected="selected">Select a State</option>
+            <option value="AL">Alabama</option>
+            <option value="AK">Alaska</option>
+            <option value="AZ">Arizona</option>
+            <option value="AR">Arkansas</option>
+            <option value="CA">California</option>
+            <option value="CO">Colorado</option>
+            <option value="CT">Connecticut</option>
+            <option value="DE">Delaware</option>
+            <option value="DC">District Of Columbia</option>
+            <option value="FL">Florida</option>
+            <option value="GA">Georgia</option>
+            <option value="HI">Hawaii</option>
+            <option value="ID">Idaho</option>
+            <option value="IL">Illinois</option>
+            <option value="IN">Indiana</option>
+            <option value="IA">Iowa</option>
+            <option value="KS">Kansas</option>
+            <option value="KY">Kentucky</option>
+            <option value="LA">Louisiana</option>
+            <option value="ME">Maine</option>
+            <option value="MD">Maryland</option>
+            <option value="MA">Massachusetts</option>
+            <option value="MI">Michigan</option>
+            <option value="MN">Minnesota</option>
+            <option value="MS">Mississippi</option>
+            <option value="MO">Missouri</option>
+            <option value="MT">Montana</option>
+            <option value="NE">Nebraska</option>
+            <option value="NV">Nevada</option>
+            <option value="NH">New Hampshire</option>
+            <option value="NJ">New Jersey</option>
+            <option value="NM">New Mexico</option>
+            <option value="NY">New York</option>
+            <option value="NC">North Carolina</option>
+            <option value="ND">North Dakota</option>
+            <option value="OH">Ohio</option>
+            <option value="OK">Oklahoma</option>
+            <option value="OR">Oregon</option>
+            <option value="PA">Pennsylvania</option>
+            <option value="RI">Rhode Island</option>
+            <option value="SC">South Carolina</option>
+            <option value="SD">South Dakota</option>
+            <option value="TN">Tennessee</option>
+            <option value="TX">Texas</option>
+            <option value="UT">Utah</option>
+            <option value="VT">Vermont</option>
+            <option value="VA">Virginia</option>
+            <option value="WA">Washington</option>
+            <option value="WV">West Virginia</option>
+            <option value="WI">Wisconsin</option>
+            <option value="WY">Wyoming</option>
+          </select>
+          <input type="number" id="zipcode" placeholder="00000" />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
+
+*CSS2*
+
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1 {
+  font-family: "Exo 2";
+}
+h2 {
+  color: white;
+  font-family: "Comfortaa";
+  margin-left: 30px;
+  padding-top: 30px;
+}
+main {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    317deg,
+    rgba(131, 58, 180, 1) 25%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 75%
+  );
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 600px;
+  height: 610px;
+}
+li {
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px;
+  background-color: rebeccapurple;
+}
+li:hover {
+  background-color: lavender;
+}
+form {
+  margin-left: 170px;
+  width: 210px;
+  float: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 15px 25px;
+  width: 200px;
+}
+
+::placeholder {
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: orange;
+  border: 1px solid orange;
+  border-radius: 30px;
+  padding: 10px 25px;
+  width: 200px;
+}
+
+input[type="submit"],
+select {
+  box-sizing: content-box;
+}
