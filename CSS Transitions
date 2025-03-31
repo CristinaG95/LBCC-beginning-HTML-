@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Fifine Microphones</h1>
+    <h2>Streaming Mics</h2>
+    <h3>FIFINE AmpliGame AM8</h3>
+    <img
+      src="https://fifinemicrophone.com/cdn/shop/files/FIFINEAM8USBXLRDynamicMicrophoneforGamingStreaming_1024x1024.jpg?v=1715134622"
+      alt="FIFINE AmpliGame AM8"
+      class="AM8"
+    />
+    <h3>FIFINE K688 USB/XLR Dynamic Mic</h3>
+    <div>
+      <img
+        src="https://fifinemicrophone.com/cdn/shop/files/FIFINE_K688_Studio_Microphone_IF-awarded_1024x1024.jpg?v=1740625852"
+        alt="FIFINE K688 USB/XLR Dynamic Mic4"
+        class="K688"
+      />
+      <h3>FIFINE AmpliGame A8 USB Mic</h3>
+      <div>
+        <img
+          src="https://fifinemicrophone.com/cdn/shop/products/FIFINEA8RGBUSBMicrophone_1024x1024.jpg?v=1647938711"
+          alt="FIFINE AmpliGame A8 USB Mic"
+          class="A8"
+        />
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/nbg1jv1ZfqU?si=bTGpitVX2rywuFVn"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h2>Troubleshooting</h2>
+      <div id="accordion">
+        <h3><a href="#Q1">Is there a link for this microphone driver?</a></h3>
+        <div id="Q1">
+          Sorry no. Because all FIFINE USB microphones use a universal driver
+          built into Windows and Mac and even some Linux and Chromebook systems.
+          So there is no specific driver to download. If the driver fails to
+          trigger the automatic installation on Windows, just follow the steps
+          below to update and reinstall the driver.
+        </div>
+        <h3><a href="#Q2">My Windows is not recognizing the microphone,</a></h3>
+        <div id="Q2">
+          For the latest Windows users, in order to access the sound setting,
+          please right-click the speaker icon at the bottom right-choose
+          "Sound"-click "Sound Control Panel" at the upper right of the pop-up
+          window.
+        </div>
+        <h3>
+          <a href="#Q3"
+            >It's recognized, but I didin't hear any sound coming out of my
+            Windows when I spoke.</a
+          >
+        </h3>
+        <div id="Q3">
+          There are only two situations: one is that the headphone is plugged
+          into the 3.5mm jack of the mic, Then choose "Fifine Microphone" as
+          default out under system sound and software setting. The other is that
+          you plug a pair of headphone into computer, then choose the internal
+          speaker as output device.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+*CSS*
+@import url("https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+h1 {
+  font-size: 2.5em;
+  font-family: "Space Mono";
+  text-align: center;
+  color: midnightblue;
+  animation: none;
+}
+h1:hover {
+  animation-name: header;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes header {
+  0% {
+    color: aqua;
+  }
+  50% {
+    color: magenta;
+  }
+  100% {
+    color: chartreuse;
+  }
+}
+h2,
+h3 {
+  font-family: "Genos";
+}
+.AM8 {
+  width: 300px;
+}
+.AM8:hover {
+  filter: sepia(100%);
+}
+.K688 {
+  width: 300px;
+}
+.K688:hover {
+  filter: blur(5px);
+}
+.A8 {
+  width: 300px;
+}
+.A8:hover {
+  filter: invert(100%);
+}
+#accordion div {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  transition: height 1s ease-in;
+  overflow: hidden;
+  height: 0;
+}
+#accordion div:target {
+  height: 60px;
+  padding: 2%;
+}
+
