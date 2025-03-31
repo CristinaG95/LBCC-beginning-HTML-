@@ -1,0 +1,340 @@
+*Page 1*
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h1>Cristina's Portfolio</h1>
+    <nav>
+      <a href="about.html">About me</a>
+    </nav>
+  </header>
+  <body>
+    <table>
+      <tr>
+        <td style="width: 300px; color: black">
+          Hello, my name is Cristina Garcia and I am newly 30 years old, trying
+          to make a career in web development but open to other coding languages
+          like SQL and Python.
+        </td>
+        <td>
+          <img
+            src="me.png"
+            alt="A drawing of myself"
+            style="width: 300px; float: left"
+          />
+        </td>
+      </tr>
+    </table>
+    <p
+      style="
+        background-color: olivedrab;
+        padding: 5px;
+        text-align: center;
+        border-radius: 5px;
+      "
+    >
+      Here are some of the projects that I am most proud of
+    </p>
+    <section>
+      <ul>
+        <li>
+          <img
+            src="https://assets.weforum.org/article/image/responsive_big_webp_Wd7hTDLKflXQOQFYSDdP-qbrTRBhyOzn3v2d0PkKUPc.webp"
+            alt="Tokyo"
+            style="width: 100%"
+          />
+          <a href="https://codesandbox.io/p/sandbox/bold-cache-63mhsp"
+            >Summer Itinerary</a
+          >
+          <p>
+            This was only our second lab activity, and it's when we began to
+            learn about CSS. I really enjoyed experimenting with different
+            styles, and it was exciting to see all the links functioning
+            properly.
+          </p>
+        </li>
+        <li>
+          <img
+            src="data:image/png;base64,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"
+            alt="LBCC logo"
+            style="width: 100%"
+          />
+          <a href='https://codesandbox.io/p/sandbox/magical-euler-7gwrv3"'
+            >LBCC Mock Website</a
+          >
+          <p>
+            Here we had the opportunity to learn how to create a grid system. It
+            took a little time, but it was quite satisfying to see everything
+            fall neatly into place.
+          </p>
+        </li>
+        <li>
+          <img
+            src="https://www.paramountcity.gov/wp-content/uploads/2024/07/logo-oval-adv.svg"
+            alt="City Logo"
+            width="100%"
+          />
+          <a href="https://codesandbox.io/p/sandbox/serverless-water-y9g55q"
+            >Favorite City</a
+          >
+          <p>
+            I decided to base this project on the city of Paramount where I grew
+            up. I felt as if this project was a challenge to me, only because I
+            wanted to make sure I was making the correct stylistic choices.
+          </p>
+        </li>
+        <li>
+          <img
+          src=https://townsquare.media/site/366/files/2024/01/attachment-King-Gizzard-and-the-Lizard-Wizard-Stu-Mackenzie-2022.jpg?w=980&amp;q=75"
+          alt="Stu" width="100%"/>
+          <a href="https://codesandbox.io/p/sandbox/green-field-ff9xl7"
+            >Tables and Forms</a
+          >
+          <p>
+            For this project, we learned how to create tables and forms for this
+            project, and while my design is quite simple, I appreciate how I was
+            able to incorporate zebra striping.
+          </p>
+        </li>
+        <li>
+          <img
+            src="https://fifinemicrophone.com/cdn/shop/products/FIFINEA8RGBUSBMicrophone_1024x1024.jpg?v=1647938711"
+            alt="Fifine Mic"
+            width="100%"
+          />
+          <a href="https://codesandbox.io/p/sandbox/gallant-franklin-fsn5sp"
+            >CSS Tansitioins</a
+          >
+          <p>
+            In this project, we explored filters and animations. I have kept
+            mine fairly simple, but I’m pretty happy with how the title
+            animation turned out.
+          </p>
+        </li>
+        <li>
+          <img
+            src="https://f4.bcbits.com/img/a1909734652_16.jpg"
+            alt="Ill times"
+            width="100%"
+          />
+          <a href="https://codesandbox.io/p/sandbox/responsive-iframe-d9yjqq"
+            >Responsive iframe</a
+          >
+          <p>
+            While this assignment was about incorporating media, I felt I was
+            able to bring in many of the lessons I learned in the previous
+            weeks, and I got to write about a subject I enjoy.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </body>
+  <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+</html>
+
+*CSS 1*
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Knewave&display=swap");
+
+h1 {
+  font-family: "Knewave";
+  font-size: 50px;
+  text-align: center;
+  background-color: olivedrab;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 150px;
+}
+ul {
+  list-style: none;
+  column-count: 3;
+}
+li {
+  display: inline-block;
+  width: 250px;
+  background-color: slategrey;
+  padding: 5px;
+  margin: 8px;
+  border-radius: 5px;
+}
+li:hover {
+  filter: drop-shadow(8px 8px 10px gray);
+}
+a:visited,
+a:link {
+  text-decoration: none;
+  font-family: "Itim";
+  color: white;
+}
+nav {
+  position: relative;
+  top: 70px;
+  left: 70%;
+  font-family: "Itim";
+  text-align: center;
+  font-size: 30px;
+  background-color: darkolivegreen;
+  margin: 8px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+}
+td,
+p {
+  font-family: "Itim";
+  color: whitesmoke;
+}
+body {
+  background-color: lightgray;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: solid 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+*Page 2*
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <header>
+    <h1>About me</h1>
+    <nav>
+      <a href="index.html">Portfolio</a>
+    </nav>
+  </header>
+  <section>
+    <p style="float: left">
+      Hello, as I mentioned earlier, my name is Cristina Garcia. I have a
+      variety of hobbies, and I'm eager to improve my skills while exploring new
+      ones. My goal in life is to pursue these interests completely guilt-free
+      and to connect with new people along the way.
+    </p>
+    <h2 style="margin-left: 20px">My Hobbies include</h2>
+    <table>
+      <tr>
+        <td>
+          I don't consider myself to be much of an artist because I mainly draw
+          in sketchbooks that no one will see, but I have been drawing since I
+          was very young, and I hope to keep drawing until I am very old.
+        </td>
+        <td>
+          <img src="stick.jpg" alt="Some of my stickers" style="width: 100%" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/KgCaww_2IOs?si=C2NKxxAk5LNBMAja"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </td>
+        <td style="padding: 20px; margin-left: 5px">
+          One of the best ways to meet new people is at concerts. You and this
+          new person already have so much in common, and it should be easy to
+          strike up a conversation, right? Going to concerts is a pretty new
+          hobby for me as I am quite reclusive, but I love the atmosphere and
+          live music, and I can't get enough.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Is learning new skills considered a hobby? I feel like I have more
+          attempts at majors than anyone I know. I mean, there's acting and
+          singing, graphic design, and now web development. Not to mention the
+          SQL course I took last summer and all the skills I picked up at
+          various jobs throughout the years. I mean, I was on a tennis team in
+          high school and I was a mailman for a few months, so yes, I can drive
+          on the right side. Did you know I'm forklift certified?
+        </td>
+        <td>
+          <img
+            src="warehouse.png"
+            alt="myself at a warehouse"
+            style="width: 100%"
+          />
+        </td>
+      </tr>
+    </table>
+  </section>
+  <footer>© 2025 - Cristina Garcia COSW10 Spring</footer>
+</html>
+
+*CSS 2*
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Knewave&display=swap");
+
+h1 {
+  font-family: "Knewave";
+  font-size: 50px;
+  text-align: center;
+  background-color: olivedrab;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px 150px;
+}
+td,
+h2,
+p {
+  font-family: "Itim";
+}
+nav {
+  font-family: "Itim";
+  text-align: center;
+  font-size: 30px;
+  background-color: darkolivegreen;
+  margin: 8px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+}
+a:visited,
+a:link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+table {
+  width: 900px;
+  border-spacing: 10px;
+}
+td {
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+  background-color: gray;
+  border: solid olivedrab 15px;
+  border-radius: 5px;
+}
+body {
+  background-color: lightgray;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  border: solid 1px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+
