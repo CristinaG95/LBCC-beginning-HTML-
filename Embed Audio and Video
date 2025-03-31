@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h1>The Murlocs</h1>
+  </header>
+  <body>
+    <main>
+      <section>
+        <article id="space">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/track/0GHu2NmkPSq5xqbSSD1tZ0?utm_source=generator&theme=0"
+            width="97%"
+            height="240"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </article>
+      </section>
+      <section>
+        <article id="youtube">
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/cg8sjXcVsJQ?si=uLS2CH9ZUYj0wFNS"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <iframe
+            style="padding-top: 15px"
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/7HfdPjVvl6s?si=6XaUIrlxe4I5q61S"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </article>
+      </section>
+      <section>
+        <article id="this">
+          <iframe
+            style="border-radius: 12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO0cbH7Z?utm_source=generator"
+            width="100%"
+            height="400"
+            frameborder="0"
+            allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"
+          ></iframe>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
+
+*CSS*
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+h1 {
+  font-family: "Permanent Marker";
+  font-size: 60px;
+  margin-left: 50px;
+}
+#space {
+  padding: 5%;
+  background-color: maroon;
+  width: 88%;
+  margin: 10px;
+  border-radius: 10px;
+}
+#youtube {
+  background-color: darkred;
+  display: relative;
+  padding: 5%;
+  width: 88%;
+  margin: 10px;
+  border-radius: 10px;
+}
+#this {
+  margin: 10px;
+  background-color: dimgray;
+  border-radius: 10px;
+  width: 88%;
+  padding: 5%;
+}
+body {
+  background-color: lavender;
+}
