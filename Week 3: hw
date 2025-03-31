@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <header>
+    <h5>Long Beach City College</h5>
+    <nav>
+      <ul>
+        <li>
+          <a href="https://www.opencccapply.net/gateway/apply?cccMisCode=841"
+            >Apply</a
+          >
+        </li>
+        <li>
+          <a href="https://www.lbcc.edu/counseling">Speak to a Counselor</a>
+        </li>
+        <li>
+          <a href="https://www.lbcc.edu/schedule-classes">Browse Classes</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="grid">
+      <div class="grid__col n-6-of-12">
+        <img src="office.png" alt="office" />
+      </div>
+      <div class="grid">
+        <div class="grid__col n-6-of-12"><img src="LBCC.png" alt="LBCC" /></div>
+        <h1>Computer & Office Studies</h1>
+        <article>
+          <h2>About the Department</h2>
+          <p>
+            The Computer and Office Studies (COS) Department offers courses and
+            tools to assist students to succeed in today’s technologically
+            driven society. Students can earn either an Associate of Science or
+            a professional certification from this department, setting them up
+            for success in further study or professional and career development.
+          </p>
+        </article>
+        <section>
+          <div class="grid">
+            <div class="grid__col n-4-of-12">
+              <img src="Laptop.png" alt="Web development" />
+              <h3>Web Development</h3>
+              <p>
+                Students will learn relevant and current web technologies
+                including HTML5, CSS3, Javascript, PHP, MySQL, popular content
+                management systems and web frameworks. Other topics include
+                mobile web application development, responsive design,
+                accessibility, and user-centered design.
+              </p>
+            </div>
+            <div class="grid__col n-4-of-12">
+              <img src="cyber.png" alt="Database Management" />
+              <h3>Database Management</h3>
+              <p>
+                Databases are the heart and soul of any business. Companies know
+                how valuable their data is and take steps to implement databases
+                throughout the organization. Our Database Management Program
+                provides students a well-rounded, hands-on approach to learning
+                and working with today’s premier database management systems.
+              </p>
+            </div>
+            <div class="grid__col n-4-of-12">
+              <img src="buisness.png" alt="Buisness Information Worker" />
+              <h3>Buisness Information Worker</h3>
+              <p>
+                The Business Information Worker Associate Degree offers students
+                and employers a state-sponsored pathway that ensures job
+                candidates have the basic digital, web literacy, and office
+                productivity skills employers are looking for.
+              </p>
+            </div>
+            <section id="Register">
+              <h3>Register for LBCC!</h3>
+              <a id="link" href="https://www.lbcc.edu/get-started">Register</a>
+            </section>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="grid">
+      <div class="grid__col n-6-of-12">
+        <p>4901 East Carson St. Long Beach, CA 90808</p>
+      </div>
+      <nav>
+        <div class="grid">
+          <div class="grid__col n-6-of-12">
+            <ul>
+              <li>
+                <a
+                  href="https://www.opencccapply.net/gateway/apply?cccMisCode=841"
+                  >Apply</a
+                >
+              </li>
+              <li>
+                <a href="https://www.lbcc.edu/counseling"
+                  >Speak to a Counselor</a
+                >
+              </li>
+              <li>
+                <a href="https://www.lbcc.edu/schedule-classes"
+                  >Browse Classes</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</html>
+
+*CSS*
+
+img {
+  width: 100%;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+.gc,
+.grid__col {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 0 0 10px 10px;
+  float: left;
+}
+.n-4-of-12 {
+  width: 33.33333333%;
+}
+.n-6-of-12 {
+  width: 50%;
+}
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-bottom: 3px solid rgb(230, 0, 0);
+  background-color: rgb(69, 69, 69);
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+}
+main,
+h1,
+section,
+article {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  float: left;
+  padding: 2%;
+}
+ul {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  list-style: none;
+  float: right;
+}
+li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 50;
+  display: inline;
+  padding: 2px;
+}
+#Register {
+  border: 1px solid;
+  margin: auto;
+  text-align: center;
+  padding-top: 25px;
+  width: 100%;
+}
+#link {
+  position: relative;
+  float: right;
+  bottom: 20px;
+  right: 15%;
+}
+footer {
+  padding: 15px;
+  margin-top: 5%;
+  width: 100%;
+}
