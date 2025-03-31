@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Cristina Garcia</h1>
+      <h3 id="email">cgarcia395@yahoo.com</h3>
+    </header>
+    <main style="margin: 2%">
+      <h2>About me</h2>
+      <p>
+        Hello, my name is Cristina Garcia and I am newly 30 years old, trying to
+        make a career in web development but open to other coding languages like
+        SQL and Python.
+      </p>
+      <section id="education">
+        <h3>Education and career goals</h3>
+        <p>
+          I graduated from Paramount High School in 2013 with a focus on graphic
+          design. Since then, I have been attending LBCC on and off, focusing on
+          different majors to see what sticks. These majors include theater
+          arts, music, medical billing, and now web development full-stack. I
+          have always loved working with computers, and my educational goal is
+          to get a career where I can work at a desk and hopefully earn enough
+          to support my parents.
+        </p>
+        <h3>Recent Employment</h3>
+        <ul>
+          <li>
+            <a href="https://www.gfcole.com/">G.F. Cole Corporation</a>
+            <p style="margin: 2px 0px 25px">
+              <strong>Shipping Clerk</strong> - Responsible for coordinating
+              less-than-truckload pickups and ground pickups, as well as
+              preparing the required documentation, including Bills of Lading.
+            </p>
+          </li>
+          <li>
+            <a href="https://ipscorp.com/">IPS Corporation</a>
+            <p style="margin: 2px 0px 10px">
+              <strong>Shipping Clerk</strong> - Efficiently composing and
+              proofreading business memos, letters, and reports to ensure
+              error-free communication efforts.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="interests">
+        <h3>Interests</h3>
+        <div class="row">
+          <div class="column">
+            <img
+              src="poster2.png"
+              alt="King Gizzard posters I own"
+              width="80%"
+            />
+          </div>
+          <div class="row">
+            <div class="column">
+              <img
+                src="poster.png"
+                alt="King Gizzard posters I own"
+                width="100%"
+                height="100%"
+                style="margin: 10px 0px 10px"
+              />
+            </div>
+            <p>
+              My interests include playing video games and watching cartoons.
+              When I have the time and money, I like to go to concerts. Mostly
+              local venues, but I only really splurge on one band, King Gizzard
+              & the Lizard Wizard. I've been going to King Gizzard concerts for
+              3 years, soon to be 4 years in a row, and I like to collect
+              posters from the shows I go to.
+            </p>
+            <section>
+              <h4>Websites I like</h4>
+              <u1>
+                <li>
+                  <a href="https://bandcamp.com/">Bandcamp</a>
+                  <p>
+                    I like Bandcamp as a website because of how easy it is to
+                    navigate and find new artists, thanks to the open grid
+                    layout when displaying the album art.
+                  </p>
+                </li>
+                <li>
+                  <a href="https://kglw.net/">KGLW.net</a>
+                  <p>
+                    I like KGLW.net because it is a fan-made free resource where
+                    I can go and see any new updates or articles that may have
+                    come up about King Gizzard.
+                  </p>
+                </li>
+              </u1>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>&copy; 2025 - Cristina Garcia COSW10 Spring</footer>
+  </body>
+</html>
+
+*CSS* 
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0;
+}
+#email {
+  text-align: center;
+  font-style: normal;
+  font-weight: 100;
+  margin: 2px;
+  font-size: medium;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+h2,
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: cadetblue;
+}
+main,
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 1px;
+  padding: 20px;
+  margin: 2px;
+  text-align: center;
+}
+#interests {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 45px 2px 45px;
+}
+#education {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 45px 2px 45px;
+}
