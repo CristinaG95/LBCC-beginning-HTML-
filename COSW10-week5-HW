@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>WEB DESIGN QUESTIONNAIRE</h1>
+      <p>
+        Thank you again for your interest in Bionic Creative. Please complete
+        the following questionnaire.
+      </p>
+      <p style="position: relative; top: -10px">
+        This will give us the necessary background to draft your quotation.
+      </p>
+      <p>
+        When you are done with the questionnaire, please save it and email to
+        email name@domain.com
+      </p>
+    </header>
+    <section id="section1">
+      <h2>CONTACT INFORMATION</h2>
+      <form id="table" name="form-comment">
+        <table style="width: 100%">
+          <tr>
+            <td style="width: 25%">Contact name</td>
+            <td><input type="text" name="Contact name" /></td>
+          </tr>
+          <tr>
+            <td>Company name</td>
+            <td><input type="text" name="Company name" /></td>
+          </tr>
+          <tr>
+            <td>Company registration</td>
+            <td><input type="text" name="Company registration" /></td>
+          </tr>
+          <tr>
+            <td>Phone number</td>
+            <td><input type="text" name="Phone number" /></td>
+          </tr>
+          <tr>
+            <td>Email address</td>
+            <td><input type="text" name="Email address" /></td>
+          </tr>
+          <tr>
+            <td>Company address</td>
+            <td><input type="text" name="Company address" /></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <section id="section2">
+      <h2>PROJECT OVERVIEW</h2>
+      <form id="table2" name="form-comment">
+        <table style="width: 100%">
+          <tr>
+            <td style="width: 25%">Type of project</td>
+            <td>
+              <input type="checkbox" value="New Design" /><label
+                for="New Design"
+                >New Design</label
+              >
+              <input type="checkbox" value="Re-design" /><label for="Re-design"
+                >Re-design</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Project deadline</td>
+            <td style="padding-left: 12px"><input type="date" /></td>
+          </tr>
+          <tr>
+            <td>My deadline is...</td>
+            <td>
+              <input type="checkbox" value="Fixed" /><label for="Fixed"
+                >Fixed</label
+              >
+              <input type="checkbox" value="Flexible" /><label for="Flexible"
+                >Flexible</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Current URL</td>
+            <td><input type="text" name="Current URL" /></td>
+          </tr>
+        </table>
+      </form>
+    </section>
+    <section id="section3">
+      <h2>ABOUT YOUR BUISNESS</h2>
+      <form id="table3" name="form-comment">
+        <table style="width: 100%">
+          <tr>
+            <td style="width: 40%">
+              What is your immediate goal for this website?
+            </td>
+            <td><input type="text" name="goal" /></td>
+          </tr>
+          <tr>
+            <td style="float: left">
+              What is the purpose of this website? Informational, customer
+              service, networking, public relations, client
+              feedback/interactivity, software demo download, web presence/image
+            </td>
+            <td>
+              <ul style="list-style-type: none; float: left; padding-left: 2px">
+                <li>
+                  <input type="checkbox" value="E-commerce" />
+                  <label for="E-commerce">E-commerce</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="Extranet" />
+                  <label for="Extranet">Extranet</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="Contest" />
+                  <label for="Contest">Contest</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="Demographic" />
+                  <label for="Demographic"
+                    >Demographic & information gathering</label
+                  >
+                </li>
+                <li>
+                  <input type="checkbox" value="Informational" />
+                  <label for="Informational">Informational</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="Customer service" />
+                  <label for="Customer service">Customer service</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="networking" />
+                  <label for="networking">Networking</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="public relations" />
+                  <label for="public relations">Public Relations</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="client" />
+                  <label for="client">Client Feedback/Interactivity</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="software" />
+                  <label for="software">Software demo download</label>
+                </li>
+                <li>
+                  <input type="checkbox" value="Web presence" />
+                  <label for="web presence">Web presence/image</label>
+                </li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </body>
+</html>
+
+*CSS*
+
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1,
+h2 {
+  font-family: "Sour Gummy";
+  padding-left: 10px;
+}
+h2 {
+  font-size: 15px;
+  padding-left: 10px;
+  margin: 5px;
+}
+p {
+  font-family: "Delius";
+  width: 800px;
+  padding-left: 20px;
+}
+#section1,
+#section2 {
+  margin: 5px 5px 20px;
+  background-color: olivedrab;
+  padding: 1px;
+  width: 800px;
+}
+#section3 {
+  margin: 5px 5px 20px;
+  background-color: olivedrab;
+  padding: 1px;
+  width: 800px;
+}
+tr:nth-child(1n + 0) {
+  background-color: white;
+}
+td {
+  padding: 8px;
+}
+#table,
+#table2,
+#table3 {
+  margin: 2px;
+  background-color: gray;
+  padding: 2px;
+  font-family: "Delius";
+}
+input[type="text"],
+input[type="checkbox"] {
+  font-size: 100%;
+  border: white;
+}
+li {
+  position: relative;
+  top: -10px;
+}
